@@ -8,6 +8,7 @@ RUN yum install k6 -y
 
 COPY script.js .
 COPY statsd.json /opt/aws/amazon-cloudwatch-agent/bin/default_linux_config.json
+COPY statsd.json /etc/cwagentconfig
 
 ENV RUN_IN_CONTAINER="True"
 ADD start.sh .
