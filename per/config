@@ -1,2 +1,2 @@
-[AmazonCloudWatchAgent]
+[profile AmazonCloudWatchAgent]
 region = ap-south-1
