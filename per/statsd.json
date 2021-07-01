@@ -1,6 +1,6 @@
 {
    "metrics": {
-      "namespace": "k21",
+      "namespace": "k30",
       "metrics_collected": {
           "statsd": {
                 "service_address": ":8125",
